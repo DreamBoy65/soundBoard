@@ -16,7 +16,7 @@ let channel = message.member.voice.channel // required*
 sound.play(channel, "bruh") //Sound
 ```
 
-#Sounds
+# Sounds
 - bruh
 - kiralaugh
 - pokemon
