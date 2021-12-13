@@ -1,6 +1,6 @@
 {
   "name": "djs-soundboard",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A soundBoard Package for discord bots.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "discord",
     "soundboard",
     "djs",
-    "djs-soundboard"
+    "djs-soundboard",
+    "fun",
+    "games"
   ],
   "author": "dream-prince",
   "license": "ISC",
