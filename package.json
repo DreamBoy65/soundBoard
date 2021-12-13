@@ -1,6 +1,6 @@
 {
   "name": "djs-soundboard",
-  "version": "1.0.0",
+  "version": "3.0.2",
   "description": "A soundBoard Package for discord bots.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,17 @@
     "djs-soundboard"
   ],
   "author": "dream-prince",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamBoy65/soundBoard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DreamBoy65/soundBoard/issues"
+  },
+  "homepage": "https://github.com/DreamBoy65/soundBoard#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5"
+  },
+  "devDependencies": {}
 }
