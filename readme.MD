@@ -17,6 +17,9 @@ sound.play(channel, "bruh") //Sound
 ```
 
 # Sounds
-- bruh
-- kiralaugh
-- pokemon
++ Memes
++ - bruh
+
++ Anime
++ - kiralaugh
++ - pokemon

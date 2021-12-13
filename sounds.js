@@ -13,14 +13,14 @@ module.exports = {
 let array = [
   {
     name: "bruh",
-    file: "bruh.mp3"
+    file: "memes/bruh.mp3"
   },
   {
     name: "kiralaugh",
-    file: "kiras_laugh.mp3"
+    file: "anime/kiras_laugh.mp3"
   },
   {
     name: "pokemon", 
-    file: "pokemon.mp3"
+    file: "anime/pokemon.mp3"
   }
 ]
