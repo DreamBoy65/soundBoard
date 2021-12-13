@@ -1,0 +1,19 @@
+{
+  "name": "djs-soundboard",
+  "version": "1.0.0",
+  "description": "A soundBoard Package for discord bots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sound",
+    "discord.js",
+    "discord",
+    "soundboard",
+    "djs",
+    "djs-soundboard"
+  ],
+  "author": "dream-prince",
+  "license": "ISC"
+}
