@@ -1,5 +1,20 @@
+const fs = require("fs")
 module.exports = {
   getSound(sound) {
+    let array = []
+    
+    fs.readdirSync("./src/").forEach(dir =>
+    {
+      let files = fs.readdirSync(`./src/${dir}/`).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
+      
+      files.forEach(file => {
+        array.push({
+          name: file.split(".")[0],
+          file: `${dir}/${file}`
+        })
+      })
+    })
+    
     let Sound = array.find(c => c.name === sound)
     
     if(Sound) {
@@ -9,18 +24,3 @@ module.exports = {
     }
   }
 }
-
-let array = [
-  {
-    name: "bruh",
-    file: "memes/bruh.mp3"
-  },
-  {
-    name: "kiralaugh",
-    file: "anime/kiras_laugh.mp3"
-  },
-  {
-    name: "pokemon", 
-    file: "anime/pokemon.mp3"
-  }
-]

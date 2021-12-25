@@ -1,5 +1,5 @@
-let { getSound } = require("./sounds")
-
+const { getSound } = require("./sounds")
+const fs = require("fs")
 const { createAudioResource, getVoiceConnection, createAudioPlayer, joinVoiceChannel, AudioPlayerStatus } = require("@discordjs/voice")
 const path = require("path")
 
@@ -37,6 +37,28 @@ class SoundBoard {
     player.on(AudioPlayerStatus.Idle, () => {
       connection.destroy()
     })
+  }
+  
+  getAllSounds() {
+    let array = []
+    
+    fs.readdirSync("./src").forEach(dir => {
+      
+      let files = fs.readdirSync(`./src/${dir}/`).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
+      
+      array.push({
+        category: dir,
+        sounds: []
+      })
+      
+      let Arr = array.find(c => c.category === dir)
+      
+      files.forEach(file => {
+        Arr.sounds.push(file.split(".")[0])
+      })
+    })
+    
+    return array;
   }
 }
 
