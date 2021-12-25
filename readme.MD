@@ -4,6 +4,7 @@
    <a href = "https://discord.gg/7UQaVPBQka" > <img src="https://img.shields.io/badge/Server-Invite-brightgreen" href = "">
    </a>
 </p>
+
 # Example
 
 ```js
