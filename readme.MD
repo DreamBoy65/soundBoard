@@ -5,6 +5,7 @@
    </a>
 </p>
 # Example
+
 ```js
 const SoundBoard = require("djs-soundboard")
 
@@ -14,6 +15,7 @@ let channel = message.member.voice.channel // required*
 
 sound.play(channel, "bruh") //Sound
 ```
+
 # Sounds:
 
 
