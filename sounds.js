@@ -1,11 +1,12 @@
 const fs = require("fs")
+const path = require("path")
 module.exports = {
   getSound(sound) {
     let array = []
     
-    fs.readdirSync("./src/").forEach(dir =>
+    fs.readdirSync(path.join(__dirname, "./src/")).forEach(dir =>
     {
-      let files = fs.readdirSync(`./src/${dir}/`).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
+      let files = fs.readdirSync(path.join(__dirname, `./src/${dir}/`)).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
       
       files.forEach(file => {
         array.push({

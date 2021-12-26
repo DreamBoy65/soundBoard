@@ -23,8 +23,9 @@ fs.writeFileSync("readme.MD", [
    <a href = "https://discord.gg/7UQaVPBQka" > <img src="https://img.shields.io/badge/Server-Invite-brightgreen" href = "">
    </a>
 </p>`,
-
+   "",
    "# Example",
+   "",
    "```js",
    'const SoundBoard = require("djs-soundboard")',
    "",
@@ -34,6 +35,7 @@ fs.writeFileSync("readme.MD", [
    "",
    'sound.play(channel, "bruh") //Sound',
    '```',
+   "",
    '# Sounds:',
    array.map(c => {
      return `\n\n+ ${c.category.toUpperCase()}\n${c.files.join("\n")}`

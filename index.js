@@ -25,11 +25,7 @@ class SoundBoard {
     }
     
     let player = createAudioPlayer()
-    let res = createAudioResource(path.join(__dirname, `./src/${Sound.file}`), {
-      metadata: {
-        title: Sound.name
-      }
-    })
+    let res = createAudioResource(path.join(__dirname, `./src/${Sound.file}`))
     
     player.play(res)
     connection.subscribe(player)
@@ -42,9 +38,9 @@ class SoundBoard {
   getAllSounds() {
     let array = []
     
-    fs.readdirSync("./src").forEach(dir => {
+    fs.readdirSync(path.join(__dirname, "./src")).forEach(dir => {
       
-      let files = fs.readdirSync(`./src/${dir}/`).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
+      let files = fs.readdirSync(path.join(__dirname, `./src/${dir}/`)).filter(f => f.endsWith(".mp4") || f.endsWith(".mp3"))
       
       array.push({
         category: dir,

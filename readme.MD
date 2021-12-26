@@ -17,3 +17,62 @@ let channel = message.member.voice.channel // required*
 sound.play(channel, "bruh") //Sound
 ```
 
+# Sounds:
+
+
++ ANIME
++ - ara-ara
++ - arigato
++ - fuck-you
++ - kawaii
++ - kiras_laugh
++ - niconiconii
++ - oni-chan
++ - pokemon
++ - senpai,
+
++ EFFECTS
++ - bass-boost
++ - discord-notification
++ - error
++ - fart
++ - okbye
++ - roblox-death
++ - shutdown
++ - tecnobladebruh
++ - villager,
+
++ MEMES
++ - bruh
++ - chaipilo
++ - chala-ja-bsdk
++ - coffin-dance
++ - enemy-spotted
++ - fucked-up
++ - helicopter-helicopter
++ - herewegoagain
++ - land-kara
++ - lesgo
++ - marGyaMadar
++ - nikal
++ - noice
++ - ok-simp
++ - rickroll
++ - suckAdick
++ - super-idol
++ - surprise-motherfucker
++ - underthewater
++ - virus,
+
++ NSFW
++ - female-orgasm
++ - fuckmedaddy
++ - huge-boobs
++ - moan
++ - nsfwEarrape
++ - orgasmreal
++ - pussy
++ - turtlesex
++ - yamete
+
+Last Updated: Sun Dec 26 2021 16:41:07 GMT+0530 (India Standard Time)
