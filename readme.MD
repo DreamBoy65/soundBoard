@@ -46,6 +46,9 @@ sound.play(channel, "bruh") //Sound
   - oni-chan
   - pokemon
   - niconiconii
+  - kawaii
+  - arigato
+  - senpai
 + effects
   - bass-boost
   - discord-notification
