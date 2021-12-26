@@ -3,70 +3,17 @@
    <img src="https://img.shields.io/npm/v/djs-soundboard?style=for-the-badge">
    <a href = "https://discord.gg/7UQaVPBQka" > <img src="https://img.shields.io/badge/Server-Invite-brightgreen" href = "">
    </a>
-</p>   
+</p>
 
-# Example: 
+# Example
+
 ```js
 const SoundBoard = require("djs-soundboard")
 
-let sound = new SoundBoard()
+let sound = new SoundBoard
 
 let channel = message.member.voice.channel // required*
 
 sound.play(channel, "bruh") //Sound
 ```
 
-# Sounds
-+ Memes
-  - bruh
-  - chaipilo
-  - chala-ja-bsdk
-  - coffin-dance
-  - enemy-spotted
-  - fucked-up
-  - helicopter-helicopter
-  - herewegoagain
-  - land-kara
-  - lesgo
-  - marGyaMadar
-  - nikal
-  - noice
-  - ok-simp
-  - super-idol
-  - surprise-motherfucker
-  - underthewater
-  - virus
-  - suckAdick
-
-+ Anime
-  - kiras_laugh
-  - pokemon
-  - ara-ara
-  - fuck-you
-  - oni-chan
-  - pokemon
-  - niconiconii
-  - kawaii
-  - arigato
-  - senpai
-+ effects
-  - bass-boost
-  - discord-notification
-  - error
-  - fart
-  - okbye
-  - pornhub
-  - roblox-death
-  - shutdown
-  - tecnobladebruh
-  - villager
-+ nsfw
-  - fuckmedaddy
-  - moan
-  - nsfwEarrape
-  - pussy
-  - turtlesex
-  - yamete
-  - female-orgasm
-  - orgasmreal
-  - huge-boobs
