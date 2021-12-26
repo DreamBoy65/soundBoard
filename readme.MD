@@ -18,7 +18,7 @@ sound.play(channel, "bruh") //Sound
 
 # Sounds
 + Memes
-+ - bruh
+ - bruh
 
 + Anime
 + - kiralaugh
