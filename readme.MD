@@ -44,6 +44,7 @@ sound.play(channel, "bruh") //Sound
   - fuck-you
   - oni-chan
   - pokemon
+  - niconiconii
 + effects
   - bass-boost
   - discord-notification
