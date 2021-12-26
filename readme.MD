@@ -38,5 +38,27 @@ sound.play(channel, "bruh") //Sound
   - virus
 
 + Anime
-  - kiralaugh
+  - kiras_laugh
   - pokemon
+  - ara-ara
+  - fuck-you
+  - oni-chan
+  - pokemon
++ effects
+  - bass-boost
+  - discord-notification
+  - error
+  - fart
+  - okbye
+  - pornhub
+  - roblox-death
+  - shutdown
+  - tecnobladebruh
+  - villager
++ nsfw
+  - fuckmedaddy
+  - moan
+  - nsfwEarrape
+  - pussy
+  - turtlesex
+  - yamete
