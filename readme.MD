@@ -36,6 +36,7 @@ sound.play(channel, "bruh") //Sound
   - surprise-motherfucker
   - underthewater
   - virus
+  - suckAdick
 
 + Anime
   - kiras_laugh
@@ -64,3 +65,4 @@ sound.play(channel, "bruh") //Sound
   - turtlesex
   - yamete
   - female-orgasm
+  - orgasmreal
