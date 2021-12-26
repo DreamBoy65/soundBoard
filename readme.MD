@@ -17,39 +17,3 @@ let channel = message.member.voice.channel // required*
 sound.play(channel, "bruh") //Sound
 ```
 
-# Sounds:
-
-
-+ ANIME
-+ - kiras_laugh
-+ - moan
-+ - oni-chan
-+ - pokemon,
-
-+ EFFECTS
-+ - bass-boost
-+ - discord-notification
-+ - error
-+ - fart
-+ - okbye
-+ - roblox-death
-+ - shutdown
-+ - villager,
-
-+ MEMES
-+ - bruh
-+ - coffin-dance
-+ - enemy-spotted
-+ - fucked-up
-+ - girlEarrape
-+ - helicopter-helicopter
-+ - herewegoagain
-+ - marGyaMadar
-+ - nikal
-+ - nioce
-+ - rickroll
-+ - super-idol
-+ - surprise-motherfucker
-+ - underthewater
-
-Last Updated: Sat Dec 25 2021 21:36:56 GMT+0530 (India Standard Time)
