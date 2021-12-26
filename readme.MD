@@ -18,8 +18,25 @@ sound.play(channel, "bruh") //Sound
 
 # Sounds
 + Memes
- + bruh
+  - bruh
+  - chaipilo
+  - chala-ja-bsdk
+  - coffin-dance
+  - enemy-spotted
+  - fucked-up
+  - helicopter-helicopter
+  - herewegoagain
+  - land-kara
+  - lesgo
+  - marGyaMadar
+  - nikal
+  - noice
+  - ok-simp
+  - super-idol
+  - surprise-motherfucker
+  - underthewater
+  - virus
 
 + Anime
-+ - kiralaugh
-+ - pokemon
+  - kiralaugh
+  - pokemon
