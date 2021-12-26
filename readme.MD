@@ -63,3 +63,4 @@ sound.play(channel, "bruh") //Sound
   - pussy
   - turtlesex
   - yamete
+  - female-orgasm
