@@ -4,7 +4,9 @@
    <a href = "https://discord.gg/7UQaVPBQka" > <img src="https://img.shields.io/badge/Server-Invite-brightgreen" href = "">
    </a>
 </p>
+
 # Invite Bot:
+
 + https://dsc.gg/waifu.gg
 
 # Example
@@ -95,4 +97,4 @@ sound.play(channel, "bruh") //Sound
 Total Sounds:
 60
 
-Last Updated: Tue Dec 28 2021 23:12:03 GMT+0530 (India Standard Time)
+Last Updated: Tue Dec 28 2021 23:14:13 GMT+0530 (India Standard Time)
