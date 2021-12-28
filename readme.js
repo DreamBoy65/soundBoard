@@ -50,7 +50,7 @@ fs.writeFileSync("readme.MD", [
      return `\n\n+ ${c.category.toUpperCase()}\n${c.files.join("\n")}`
    }),
    "",
-   "Total Sounds:"
+   "Total Sounds:",
    `${total}`,
    "",
    `Last Updated: ${new Date()}`

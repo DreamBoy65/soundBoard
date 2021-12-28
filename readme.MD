@@ -4,6 +4,8 @@
    <a href = "https://discord.gg/7UQaVPBQka" > <img src="https://img.shields.io/badge/Server-Invite-brightgreen" href = "">
    </a>
 </p>
+# Invite Bot:
++ https://dsc.gg/waifu.gg
 
 # Example
 
@@ -24,12 +26,15 @@ sound.play(channel, "bruh") //Sound
 + - ara-ara
 + - arigato
 + - fuck-you
++ - kamehameha
++ - katon
 + - kawaii
 + - kiras_laugh
 + - niconiconii
 + - oni-chan
-+ - pokemon
-+ - senpai,
++ - pikapika-42387
++ - senpai
++ - turuturu,
 
 + EFFECTS
 + - bass-boost
@@ -73,6 +78,21 @@ sound.play(channel, "bruh") //Sound
 + - orgasmreal
 + - pussy
 + - turtlesex
-+ - yamete
++ - yamete,
 
-Last Updated: Sun Dec 26 2021 16:41:07 GMT+0530 (India Standard Time)
++ SPONGEBOB
++ - a-few-moments-later-hd
++ - im-ready
++ - one-hour-later-spongebob-time-card-96
++ - sbtrapvinebycarb0n
++ - spongebob-2000-years-later-2019-download-link
++ - spongebob-dolphin-censor
++ - spongebob-fail
++ - spongebob-hi-how-are-ya-
++ - strongpunch
++ - you-what-spongebob
+
+Total Sounds:
+60
+
+Last Updated: Tue Dec 28 2021 23:10:04 GMT+0530 (India Standard Time)
