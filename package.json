@@ -1,6 +1,6 @@
 {
   "name": "djs-soundboard",
-  "version": "4.0.3",
+  "version": "4.0.5",
   "description": "A soundBoard Package for discord bots.",
   "main": "index.js",
   "scripts": {
