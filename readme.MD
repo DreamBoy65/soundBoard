@@ -11,14 +11,35 @@
 
 # Example
 
++ Soundboard:
 ```js
 const SoundBoard = require("djs-soundboard")
 
-let sound = new SoundBoard
+let sound = new SoundBoard()
 
 let channel = message.member.voice.channel // required*
 
 sound.play(channel, "bruh") //Sound
+```
+
++ TTS
+```js
+const SoundBoard = require("djs-soundboard")
+
+let sound = new SoundBoard()
+
+let channel = message.member.voice.channel // required*
+
+sound.tts(channel, "bruh") //Text
+```
+
+```js
++ Functions:
++ - 1: getAllSounds => get all soundboard sounds
+Type: Array.
+
++ - 2: getAllLocales => get all supported languages for tts
+Type: Array.
 ```
 
 # Sounds:
@@ -51,38 +72,78 @@ sound.play(channel, "bruh") //Sound
 
 + MEMES
 + - and-his-name-is-john-cena-1
++ - badpiggiessong
 + - bruh
++ - bullshit
 + - chaipilo
 + - chala-ja-bsdk
 + - coffin-dance
++ - dammit
 + - directed-by-robert-b_voI2Z4T
++ - douche
 + - enemy-spotted
++ - fight
++ - finally
 + - fucked-up
 + - helicopter-helicopter
 + - herewegoagain
++ - holdup
++ - how
++ - iamstupid
++ - imleaving
++ - impressingbuttons
++ - imsogood
 + - it-was-at-this-moment-that-he-he-knew-he-f-cked-up
++ - itsuseless
++ - knackebrod
 + - land-kara
 + - lesgo
++ - loudnoise
 + - marGyaMadar
++ - mcdzombie
 + - nani_Pmxf5n3
++ - nice
 + - nikal
++ - noice (1)
 + - noice
++ - nonono
++ - noo
++ - noway
++ - nvm
 + - oh-no-no-no-tik-tok-song-sound-effect
 + - ok-simp
++ - omg
++ - ooeeh
 + - rickroll
++ - shutup
++ - somethingstupid
 + - suckAdick
 + - super-idol
 + - surprise-motherfucker
 + - tf_nemesis
++ - thatsagoodone
 + - the-rap-battle-parody-oh
++ - toktik
 + - underthewater
 + - virus
++ - wee
++ - what
++ - what2
++ - whoeha
 + - why-are
-+ - x-files-theme-song-copy,
++ - wiener
++ - wtf
++ - wurst
++ - x-files-theme-song-copy
++ - yeah,
 
 + NSFW
 + - female-orgasm
++ - fuck
++ - fuck2
++ - fuckfuckfuckfuck
 + - fuckmedaddy
++ - fuckno
 + - huge-boobs
 + - moan
 + - nsfwEarrape
@@ -104,6 +165,6 @@ sound.play(channel, "bruh") //Sound
 + - you-what-spongebob
 
 Total Sounds:
-69
+109
 
-Last Updated: Thu Jan 06 2022 11:56:42 GMT+0530 (India Standard Time)
+Last Updated: Thu Sep 29 2022 20:04:07 GMT+0530 (India Standard Time)
