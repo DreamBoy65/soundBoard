@@ -41,6 +41,54 @@ Type: Array.
 + - 2: getAllLocales => get all supported languages for tts
 Type: Array.
 ```
++ Bot:
+```js
+// Require the necessary discord.js classes
+const {
+  Client,
+  Events,
+  GatewayIntentBits,
+  SlashCommandBuilder
+} = require('discord.js');
+const {
+  token
+} = require('./config.json');
+const SoundBoard = require("djs-soundboard")
+let sound = new SoundBoard()
+
+// Create a new client instance
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds]
+});
+
+// new command data
+const data = new SlashCommandBuilder()
+.setName('bruh') // name
+.setDescription('bruh sound!') // description
+
+// When the client is ready, run this code (only once)
+// We use 'c' for the event parameter to keep it separate from the already defined 'client'
+client.once("ready", c => {
+  console.log(`Ready! Logged in as ${c.user.tag}`);
+  c.guilds.cache.get("//GuildId").commands.set([data.toJSON()]) // registering command
+});
+
+// i = Interaction class
+client.on("InteractionCreate", i => {
+  if (i.commandName === "bruh") {
+    sound.play(i.member.voice.channel, "bruh")
+  }
+})
+
+client.on("messageCreate", msg => {
+  if (msg.content === "!bruh") {
+    sound.play(msg.member.voice.channel, "bruh")
+  }
+})
+
+// Log in to Discord with your client's token
+client.login(token);
+```
 
 # Sounds:
 
